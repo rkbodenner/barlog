@@ -2,7 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 
-gem 'sqlite3'
+gem 'sqlite3', :group => :development
+gem 'pg', :group => :production
 
 gem 'heroku'
 
